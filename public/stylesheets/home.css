@@ -117,10 +117,11 @@
     .main-main .main-body .main-article .article-class{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
         min-width: 18%;
-        width: 23%;
+        width: 21%;
+        
     }
     .main-main .main-body .main-article .article-class:hover{
-        width: 24%;
+        width: 22%;
 
     
     }
@@ -140,12 +141,13 @@
 }
 
 footer{
-    padding-top: 20px;
+    padding: 15px;
     text-align: center;
     background-color: white;
 }
 footer .target{
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    margin-top: 40px;
 }
 footer .target i{
     font-size: 2em;
@@ -153,19 +155,25 @@ footer .target i{
 }
 footer .target h3{
     color: #666;
+    font-size: 1em;
 }
 
 footer .target p{
-    display: inline-block;
-    width: 70vw;
     color: gray;
-    font-size: 12px;
+    font-size: .8em;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 10px;
+   
 }
+
 
 /*--------tablet----------*/
 @media (min-width:769px){
     footer .tarjetas{
         display: flex;
+        padding-bottom:40px ;
+        margin: 15px 0;
     }
     footer .tarjetas section{
         width: 33%;
@@ -173,7 +181,7 @@ footer .target p{
     footer .target p{
         width: 75%;
         color: gray;
-        font-size: 10px;
+        font-size: 18px;
     }
 
     footer .target i:hover{
