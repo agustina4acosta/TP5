@@ -1,0 +1,60 @@
+.form-container{
+
+    padding: 10px;
+}
+.input-text, 
+.input-email,
+.input-password,
+.input-date{
+    width: 90vw;
+    font-size: 18px;
+    padding: 5px;
+}
+form div,
+form p{
+    margin-bottom: 10px;
+}
+.user-profile-container,
+.intereses-container{
+    margin-left: 15px;
+}
+
+.btn{
+    width: 95px;
+    padding: 10px 18px;
+    background-color: blue;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 450ms;
+    
+}
+
+.btn:hover{
+    background-color: #0022AA;
+}
+
+@media (min-width: 1200px){
+    .form-container{
+        text-align: center;
+    }
+    .input-text, 
+.input-email,
+.input-password,
+.input-date{
+    width: 40vh;
+    font-size: 18px;
+    padding: 5px;
+    
+}
+.btn{
+    width: 40vh;
+}
+.user-profile-container,
+.intereses-container{
+    text-align: justify;
+    margin-left: 40%;
+    margin-bottom: 20px;
+}
+
+}
