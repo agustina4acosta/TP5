@@ -76,12 +76,12 @@
         align-items: center;
         justify-content: space-evenly;
     }
-    .main-header .content .top-bar .top-top-bar{
+    .main-header .content .top-bar {
         width: 615;
         display: flex;
         align-items: center;
     }
-    .main-header .content .top-bar .top-top-bar .search{
+    .main-header .content .top-bar  .search{
         height: 18px;
     }
     .main-header .content .top-bar .buy-header{
@@ -106,7 +106,7 @@
     .main-header .content .nav-bar ul li:hover{
         background-color: #ddbe24;
     }
-    .main-header .content .nav-bar .left-nav-bar{
+    .main-header .content .nav-bar {
         align-content: flex-start;
         padding-left: 10px;
     }

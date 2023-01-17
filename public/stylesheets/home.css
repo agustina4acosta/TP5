@@ -33,9 +33,7 @@
     margin-bottom: 15px;
     transition: .15s ease all;
 }
-.main-main .main-body .main-article .article-class:hover{
-    width: 98%;
-}
+
 .main-main .main-body .main-article .article-class img{
     width: 80%;
 }
@@ -45,6 +43,7 @@
     width: 100%;
     position: relative;
 }
+/*Animacion */
 .main-main .main-body .main-article .article-class .caracteristicas-article i{
     font-size: 16px;
     padding: 5px;
@@ -61,18 +60,6 @@
 .main-main .main-body .main-article .article-class .caracteristicas-article i:hover{
     transform: rotate(-90deg);
 }
-.main-main .main-body .main-article .article-class .caracteristicas-article .pago{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-}
-.main-main .main-body .main-article .article-class .caracteristicas-article .pago .precios{
-    width: 40%;
-}
-.main-main .main-body .main-article .article-class .caracteristicas-article .pago .off{
-    color: #39b54a;
-    width: 60%;
-}
 .main-main article .descripcion{
     font-size: 16px;
     color: #666;
@@ -84,6 +71,18 @@
 .main-main article:hover .descripcion{
     opacity: 1;
 }
+/*---------*/
+.main-main .main-body .main-article .article-class .caracteristicas-article .pago{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.main-main .main-body .main-article .article-class .caracteristicas-article .pago .off{
+    color: #39b54a;
+    width: 60%;
+}
+
 
 /*----tablet----*/
 @media (min-width: 485px){
